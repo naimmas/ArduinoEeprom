@@ -1,0 +1,31 @@
+* source TEST
+X_U1         N00620 N00758 N00620 N00345 N00564 N00345 N01206 0 awb555 PARAMS: 
++       
+R_R1         N00345 N00564  1k TC=0,0 
+X_R2         N03642 N03624 POT PARAMS: SET=0.5 VALUE=50K
+C_C2         N04212 N03624  4.7u  
+V_V1         N00400 0 9V
+X_D1         N00400 N00345 awb1n4007 PARAMS:                
+X_Q1         N01457 N01430 0 awbbc547b PARAMS:                                 
++            
+C_C3         N00345 0  4.7u  
+R_R3         N00620 N00564  15k TC=0,0 
+C_C4         0 N00620  0.047u  TC=0,0 
+C_C5         0 N00758  0.01u  TC=0,0 
+R_R4         N01241 N01206  4.7k TC=0,0 
+R_R5         0 N01241  1k TC=0,0 
+C_C6         N01241 N01206  0.1u  TC=0,0 
+C_C7         0 N01241  0.047u  TC=0,0 
+C_C8         0 N01350  0.047u  TC=0,0 
+C_C9         0 N01365  0.047u  TC=0,0 
+R_R6         N01350 N01241  10k TC=0,0 
+R_R7         N01365 N01350  10k TC=0,0 
+R_R8         N01430 N01365  10k TC=0,0 
+R_R9         N01457 N01430  1M TC=0,0 
+C_C10         N01457 N01430  0.1u  TC=0,0 
+C_C11         N01426 N01241  0.1u  TC=0,0 
+R_R10         N00345 N01457  100k TC=0,0 
+R_R11         N00345 N01426  100k TC=0,0 
+X_Q2         N00345 N03455 N04212 awbbc547b PARAMS:                            
++                 
+R_R12         0 N04212  1k TC=0,0 
